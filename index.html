@@ -7,12 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <header>
         <div class="container">
             <h1>My Personal Book Tracker</h1>
             <p>Keep track of your reading journey</p>
         </div>
     </header>
+
+    <div class="container">
+        <div class="stats-bar">
+            <div class="stat-item">
+                <h3 id="total-books">0</h3>
+                <p>Total Books</p>
+            </div>
+            <div class="stat-item">
+                <h3 id="books-read">0</h3>
+                <p>Books Read</p>
+            </div>
+            <div class="stat-item">
+                <h3 id="currently-reading">0</h3>
+                <p>Currently Reading</p>
+            </div>
+            <div class="stat-item">
+                <h3 id="to-read">0</h3>
+                <p>To Read</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="filters">
+                <select id="status-filter">
+                    <option value="all">All Books</option>
+                    <option value="read">Read</option>
+                    <option value="reading">Currently Reading</option>
+                    <option value="to-read">To Read</option>
+                </select>
+                <select id="sort-books">
+                    <option value="title">Sort by Title</option>
+                    <option value="author">Sort by Author</option>
+                    <option value="rating">Sort by Rating</option>
+                </select>
+                <input type="text" id="search-books" placeholder="Search books...">
+            </div>
+            <button id="add-book-btn">Add New Book</button>
+        </div>
+        <div class="book-grid" id="book-container">
+        </div>
+
 
     <div class="container">
         <div class="modal" id="add-book-modal">
