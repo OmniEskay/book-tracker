@@ -1,29 +1,29 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2f4f4f;
+    background-color: #2F4F4F;
     color: white;
 }
 
-.container{
+.container {
     width: 90%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
 }
 
-header{
+header {
     text-align: center;
     padding: 20px 0;
-    background-color: #2f4f4f;
-    border-bottom: 3px solid #daa520;
+    background-color: #2F4F4F;
+    border-bottom: 3px solid #FFD700;
 }
 
-.status-bar {
+.stats-bar {
     display: flex;
-    justify-content: space-around;
-    background: #1e3a3a;
+    justify-content: space-between;
+    background: #1E3A3A;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -31,10 +31,12 @@ header{
 
 .stat-item {
     text-align: center;
+    flex: 1;
+    padding: 10px;
 }
 
 .stat-item h3 {
-    color: #daa520;
+    color: #FFD700;
     font-size: 24px;
 }
 
@@ -44,17 +46,17 @@ header{
     margin-top: 20px;
 }
 
-.filter select, .filter input {
+.filters select, .filters input {
     padding: 10px;
-    border: 2px solid #daa520;
+    border: 2px solid #FFD700;
     border-radius: 5px;
-    background: #2f4f4f;
-    color: grey;
+    background: #2F4F4F;
+    color: white;
 }
 
 button {
-    background-color: #daa520;
-    color: #2f4f4f;
+    background-color: #FFD700;
+    color: #2F4F4F;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -63,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: #e6c200;
+    background-color: #E6C200;
 }
 
 .book-grid {
@@ -75,7 +77,7 @@ button:hover {
 
 .modal {
     display: none;
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -86,7 +88,7 @@ button:hover {
 }
 
 .modal-content {
-    background: #1e3a3a;
+    background: #1E3A3A;
     padding: 20px;
     border-radius: 10px;
     width: 400px;
@@ -97,7 +99,7 @@ button:hover {
     float: right;
     font-size: 24px;
     cursor: pointer;
-    color: #ffd700;
+    color: #FFD700;
 }
 
 .form-group {
@@ -112,10 +114,10 @@ button:hover {
 .form-group input, .form-group select, .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 2px solid #daa520;
+    border: 2px solid #FFD700;
     border-radius: 5px;
-    background: #1e3a3a;
-    color: grey;
+    background: #2F4F4F;
+    color: white;
 }
 
 .form-buttons {
@@ -124,9 +126,9 @@ button:hover {
 }
 
 #cancel-add {
-    background: #b22222;
+    background: #B22222;
 }
 
 #cancel-add:hover {
-    background: #a52a2a;
+    background: #A52A2A;
 }
