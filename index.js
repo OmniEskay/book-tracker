@@ -239,5 +239,47 @@ async function handleAddBookSubmit(event) {
 }
 
 
+async function handleBookStatusChange(event) {
+    const selectElement = event.target;
+    const bookId = selectElement.dataset.bookId;
+    const newStatus = selectElement.value;
+
+    const bookIndex = allBooks.findIndex(book => book.id == bookId); 
+    if (bookIndex === -1) return; 
+    const updatedFields = { status: newStatus };
+
+    try {
+        const response = await fetch(`${API_URL}/${bookId}`, {
+            method: 'PATCH', 
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(updatedFields),
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const updatedBook = await response.json();
+
+        
+        allBooks[bookIndex] = updatedBook;
+
+        updateStats();
+        applyFilterAndRender();
+
+
+    } catch (error) {
+        console.error(`Failed to update status for book ID ${bookId}:`, error);
+        alert('Failed to update book status. Please try again.');
+        selectElement.value = allBooks[bookIndex].status === 'want to read' ? 'to-read' : allBooks[bookIndex].status;
+    }
+}
+
+
+
+
+
 
 });
