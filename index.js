@@ -128,6 +128,27 @@ function applyFilterAndRender(){
         (book.author && book.author.toLowerCase().includes(lowerCaseSearch))
         );
     }
+
+
+    const sortedBooks = filteredBooks.slice().sort((a,b) => {
+        switch (currentSort){
+            case 'author':
+                const authorA = a.author || '';
+                const authorB = b.author || '';\
+                return authorA.localeCompare(authorB);
+                case 'rating':
+                    const ratingA = a.rating || 0;
+                    const ratingB = b.rating || 0;
+                    return ratingB - ratingA;
+                case 'title': 
+                default:
+                    const titleA = a.title || '';
+                    const titleB = b.title || '';
+                    return titleA.localeCompare(titleB);
+        }
+    });
+
+    renderBooks(sortedBooks);
 }
 
 
