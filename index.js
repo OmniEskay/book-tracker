@@ -35,11 +35,46 @@ function renderBooks(booksToRender){
         return;
     }
 
-    booksToRende.forEach(book => {
+    booksToRender.forEach(book => {
         const bookCard = createBookCardElement(book);
         bookContainer.appendChild(bookCard);
     });
 }
 
 
+function createBookCardElement(book){
+    const card = document.createElement('div');
+    card.classList.add('book-card');
+    card.dataset.id = book.id;
+
+    const coverUrl = book.coverImage || '';
+    const displayStatus = book.status === 'want to read' ? 'to read' : book.status;
+
+    card.innerHTML = `
+        <img src="${coverUrl}" alt="Cover of ${book.title}" class="book-cover">
+            <div class="book-info">
+                <h3>${book.title}</h3>
+                <p>by ${book.author || 'Unknown Author'}</p>
+                <p>Genre: ${book.genre || 'N/A'}</p>
+                <p>Pages: ${book.pages || 'N/A'}</p>
+                <div class="book-status-controls">
+                    <label for="status-${book.id}">Status:</label>
+                    <select id="status-${book.id}" class="book-status-select" data-book-id="${book.id}">
+                        <option value="to-read" ${displayStatus === 'to-read' ? 'selected' : ''}>To Read</option>
+                        <option value="reading" ${displayStatus === 'reading' ? 'selected' : ''}>Reading</option>
+                        <option value="read" ${displayStatus === 'read' ? 'selected' : ''}>Read</option>
+                    </select>
+                </div>
+                <div class="book-rating ${displayStatus === 'read' ? '' : 'hidden'}">
+                    Rating: ${generateStarRating(book.rating || 0)}
+                </div>
+                <div class="book-notes">
+                    <h4>Notes:</h4>
+                    <p>${book.notes || 'No notes yet.'}</p>
+                </div>
+                <button class="like-button" aria-label="Like this book">🤍 Like</button>
+            </div>
+    `;
+
+}
 })
