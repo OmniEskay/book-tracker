@@ -1,6 +1,20 @@
 document.addEventListener('DOMContentLoaded', () =>{
 
     const bookContainer = document.getElementById('book-container');
+    const totalBooksEl = document.getElementById('total-books');
+    const booksReadEl = document.getElementById('books-read');
+    const currentlyReadingEl = document.getElementById('currently-reading');
+    const toReadEl = document.getElementById('to-read');
+    const statusFilter = document.getElementById('status-filter');
+    const sortBooks = document.getElementById('sort-books');
+    const searchBooksInput = document.getElementById('search-books');
+    const addBookBtn = document.getElementById('add-book-btn');
+    const addBookModal = document.getElementById('add-book-modal');
+    const closeAddModalBtn = document.getElementById('close-add-modal');
+    const cancelAddBtn = document.getElementById('cancel-add');
+    const addBookForm = document.getElementById('add-book-form');
+    const modalBookStatus = document.getElementById('book-status');
+    const modalRatingContainer = document.getElementById('rating-container')
 
     const API_URL = 'http://localhost:3000/books';
 
