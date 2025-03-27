@@ -191,5 +191,53 @@ function hideAddBookModal() {
     addBookModal.style.display = 'none';
 }
 
+async function handleAddBookSubmit(event) {
+    event.preventDefault(); 
+    const statusValue = addBookForm.elements['book-status'].value;
+    const ratingValue = addBookForm.elements['book-rating'].value;
 
-})
+    const newBook = {
+        title: addBookForm.elements['book-title'].value,
+        author: addBookForm.elements['book-author'].value,
+        coverImage: addBookForm.elements['book-cover'].value || null, 
+        genre: addBookForm.elements['book-genre'].value,
+        pages: parseInt(addBookForm.elements['book-pages'].value, 10),
+        status: statusValue,
+        rating: (statusValue === 'read' && ratingValue) ? parseInt(ratingValue, 10) : 0,
+        notes: addBookForm.elements['book-notes'].value,
+    };
+
+    if (!newBook.title || !newBook.author) {
+        alert('Please fill in at least Title and Author.');
+        return;
+    }
+
+    try {
+        const response = await fetch(API_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newBook),
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const addedBook = await response.json();
+        allBooks.push(addedBook);
+
+        applyFiltersAndRender();
+        updateStats();
+        hideAddBookModal();
+
+    } catch (error) {
+        console.error("Failed to add book:", error);
+        alert('Failed to add book. Please check console for details.');
+    }
+}
+
+
+
+});
