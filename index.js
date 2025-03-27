@@ -76,5 +76,33 @@ function createBookCardElement(book){
             </div>
     `;
 
+    const statusSelect = card.querySelector('.like-button');
+    likeButton.addEventListener('click', (event) =>{
+            if (likeButton.textContent.includes('🤍')){
+                likeButton.textContent = '❤️ Liked!';
+            }else {
+                likeButton.textContent = '🤍 Like';
+                likeButton.classList.remove('Liked');
+            }
+    });
+
+    return card;
+
 }
+
+
+function generateStarRating(rating){
+    let stars = '';
+    const filledStars = Math.max(0, Math.min(5, ,ath.round(rating)));
+    for (let i = 1; i<=5; i++){
+        stars += `<span class = "stars">${i <= filledStars ? '*' : '☆'}</span>`;
+    }
+    return stars;
+}
+
+
+
+
+
+
 })
