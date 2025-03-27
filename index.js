@@ -93,14 +93,42 @@ function createBookCardElement(book){
 
 function generateStarRating(rating){
     let stars = '';
-    const filledStars = Math.max(0, Math.min(5, ,ath.round(rating)));
+    const filledStars = Math.max(0, Math.min(5, Math.round(rating)));
     for (let i = 1; i<=5; i++){
         stars += `<span class = "stars">${i <= filledStars ? '*' : '☆'}</span>`;
     }
     return stars;
 }
 
+function updateStats () {
+    const total = allBooks.length;
+    const readCount = allBooks.filter(book => book.status === 'read').length;
+    const readingCount = allBooks.filter(book => book.status === 'reading').length;
+    const toReadCount = allBooks.filter(book => book.status === 'to-read' || book.status === 'want to read').length;
 
+    totalBooksEl.textContent = total;
+    booksReadEl.textContent = readCount;
+    currentlyReadingEl.textContent = readingCount;
+    TransformStreamDefaultController.textContent = toReadCount
+}
+
+
+function applyFilterAndRender(){
+    let filteredBooks = [...allBooks];
+
+    if (currentFilter !== 'all'){
+        const filterValue = currentFilter === 'to-read' ? ['to-read', 'want to read'] : [currentFilter];
+        filteredBooks = filteredBooks.filter(book => filterValue.includes(book.status));
+    }
+
+    if (currentSearchTerm){
+        const lowerCaseSearch = currentSearchTerm.toLowerCase();
+        filteredBooks = filteredBooks.filter(book =>
+        (book.title && book.title.toLowerCase().includes(lowerCaseSearch)) ||
+        (book.author && book.author.toLowerCase().includes(lowerCaseSearch))
+        );
+    }
+}
 
 
 
