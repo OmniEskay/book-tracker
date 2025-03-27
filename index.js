@@ -166,6 +166,30 @@ function applyFilterAndRender(){
 }
 
 
+function handleFilterChange(event) {
+    currentFilter = event.target.value;
+    applyFilterAndRender();
+}
+
+function handleSortChange(event){
+    currentSort = event.target.value;
+    applyFilterAndRender();
+}
+
+function handleSearchInput(event) {
+    currentSearchTerm = event.target.value;
+    applyFiltersAndRender();
+}
+
+function showAddBookModal() {
+    addBookModal.style.display = 'block';
+    addBookForm.reset();
+    modalRatingContainer.style.display = 'none';
+}
+
+function hideAddBookModal() {
+    addBookModal.style.display = 'none';
+}
 
 
 })
