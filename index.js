@@ -26,4 +26,20 @@ document.addEventListener('DOMContentLoaded', () =>{
             bookContainer.innerHTMK = '<p class = "errror-message">Could not load books. Is the API server runnning?</p>'
         }
     }
+
+function renderBooks(booksToRender){
+    bookContainer.innerHTML = '';
+
+    if (booksToRender.length === 0){
+        bookContainer.innerHTML = <p>No books match your criteria.</p>;
+        return;
+    }
+
+    booksToRende.forEach(book => {
+        const bookCard = createBookCardElement(book);
+        bookContainer.appendChild(bookCard);
+    });
+}
+
+
 })
