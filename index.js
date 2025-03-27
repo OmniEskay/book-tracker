@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     const API_URL = 'http://localhost:3000/books';
 
     let allBooks = [];
-    let currentFilter = 'aall';
+    let currentFilter = 'all';
     let currentSort = 'title';
     let currentSearchTerm = '';
 
@@ -278,8 +278,27 @@ async function handleBookStatusChange(event) {
 }
 
 
+function handleModalStatusChange() {
+    if(modalBookStatus.value === 'read'){
+        modalRatingContainer.style.display = 'block';
+    } else {
+        modalRatingContainer.style.display = 'none';
+            addBookForm.elements['book-rating'].value = '';
+    }
+}
 
+statusFilter.addEventListener('change', handleFilterChange);
+    sortBooks.addEventListener('change', handleSortChange);
+    searchBooksInput.addEventListener('input', handleSearchInput);
 
+    addBookBtn.addEventListener('click', showAddBookModal);
+    closeAddModalBtn.addEventListener('click', hideAddBookModal);
+    cancelAddBtn.addEventListener('click', hideAddBookModal);
 
+    addBookForm.addEventListener('submit', handleAddBookSubmit);
+
+    modalBookStatus.addEventListener('change', handleModalStatusChange);
+
+    fetchBooks();
 
 });
