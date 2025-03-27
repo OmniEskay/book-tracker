@@ -1,0 +1,254 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "yearPublished": 1960,
+      "status": "read",
+      "rating": 5,
+      "notes": "A powerful classic about justice and prejudice."
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "yearPublished": 1949,
+      "status": "reading",
+      "rating": 5,
+      "notes": "Thought-provoking and chillingly relevant."
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "yearPublished": 1925,
+      "status": "want to read",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "yearPublished": 1813,
+      "status": "read",
+      "rating": 4,
+      "notes": "Witty characters and timeless romance."
+    },
+    {
+      "id": "5",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "yearPublished": 1951,
+      "status": "want to read",
+      "rating": 0,
+      "notes": "Heard it's a defining coming-of-age story."
+    },
+    {
+      "id": "6",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "yearPublished": 1937,
+      "status": "read",
+      "rating": 5,
+      "notes": "A perfect adventure to start with Middle-earth."
+    },
+    {
+      "id": "7",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian",
+      "yearPublished": 1953,
+      "status": "read",
+      "rating": 4,
+      "notes": "Important commentary on censorship and knowledge."
+    },
+    {
+      "id": "8",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "yearPublished": 1932,
+      "status": "want to read",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "9",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "yearPublished": 1851,
+      "status": "want to read",
+      "rating": 0,
+      "notes": "Seems challenging but rewarding."
+    },
+    {
+      "id": "10",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical Fiction",
+      "yearPublished": 1869,
+      "status": "want to read",
+      "rating": 0,
+      "notes": "Epic scope, need to set aside time for this one."
+    },
+    {
+      "id": "11",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "yearPublished": 1954,
+      "status": "read",
+      "rating": 5,
+      "notes": "The benchmark for epic fantasy."
+    },
+    {
+      "id": "12",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Philosophical Fiction",
+      "yearPublished": 1866,
+      "status": "read",
+      "rating": 4,
+      "notes": "Deep psychological exploration."
+    },
+    {
+      "id": "13",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "genre": "Gothic Fiction",
+      "yearPublished": 1890,
+      "status": "want to read",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "14",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "genre": "Satire",
+      "yearPublished": 1605,
+      "status": "want to read",
+      "rating": 0,
+      "notes": "Considered one of the first modern novels."
+    },
+    {
+      "id": "15",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel Garcia Marquez",
+      "genre": "Magical Realism",
+      "yearPublished": 1967,
+      "status": "read",
+      "rating": 5,
+      "notes": "A mesmerizing multi-generational story."
+    },
+    {
+      "id": "16",
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "genre": "Philosophical Fiction",
+      "yearPublished": 1942,
+      "status": "read",
+      "rating": 4,
+      "notes": "Concise and impactful existentialist work."
+    },
+    {
+      "id": "17",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Gothic Romance",
+      "yearPublished": 1847,
+      "status": "want to read",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "18",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "genre": "Gothic Fiction",
+      "yearPublished": 1847,
+      "status": "want to read",
+      "rating": 0,
+      "notes": ""
+    },
+    {
+      "id": "19",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "genre": "Non-Fiction",
+      "yearPublished": 2011,
+      "status": "read",
+      "rating": 5,
+      "notes": "Fascinating perspective on human history and society."
+    },
+    {
+      "id": "20",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "genre": "Science Fiction Comedy",
+      "yearPublished": 1979,
+      "status": "read",
+      "rating": 4,
+      "notes": "Hilarious and absurdly clever."
+    },
+    {
+      "id": "21",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "yearPublished": 1965,
+      "status": "read",
+      "rating": 5,
+      "notes": "Complex world-building, ecological themes."
+    },
+    {
+      "id": "22",
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "genre": "Science Fiction",
+      "yearPublished": 1951,
+      "status": "want to read",
+      "rating": 0,
+      "notes": "Classic sci-fi series about predicting the future."
+    },
+    {
+      "id": "23",
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": "Memoir",
+      "yearPublished": 2018,
+      "status": "read",
+      "rating": 5,
+      "notes": "Incredible and inspiring story of overcoming adversity."
+    },
+    {
+      "id": "24",
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "genre": "Mystery",
+      "yearPublished": 2018,
+      "status": "read",
+      "rating": 4,
+      "notes": "Beautiful nature writing combined with a compelling mystery."
+    },
+    {
+      "id": "25",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "genre": "Science Fiction",
+      "yearPublished": 2021,
+      "status": "want to read",
+      "rating": 0,
+      "notes": "Heard it's as good as The Martian."
+    }
+  ]
+}
