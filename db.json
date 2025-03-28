@@ -20,7 +20,7 @@
       "status": "read",
       "rating": 5,
       "notes": "Thought-provoking and chillingly relevant.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/1984first.jpg/330px-1984first.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/5/51/1984_first_edition_cover.jpg"
     },
     {
       "id": "3",
@@ -97,7 +97,7 @@
       "status": "want to read",
       "rating": 0,
       "notes": "Seems challenging but rewarding.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moby_Dick_FE_title_page.jpg/330px-Moby_Dick_FE_title_page.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moby-Dick_FE_title_page.jpg/220px-Moby-Dick_FE_title_page.jpg"
     },
     {
       "id": "10",
@@ -141,7 +141,7 @@
       "status": "want to read",
       "rating": 0,
       "notes": "",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Wilde_-_Picture_of_Dorian_Gray_-_1891.jpg/330px-Wilde_-_Picture_of_Dorian_Gray_-_1891.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Lippincott_doriangray.jpg/250px-Lippincott_doriangray.jpg"
     },
     {
       "id": "14",
@@ -152,7 +152,7 @@
       "status": "want to read",
       "rating": 0,
       "notes": "Considered one of the first modern novels.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/El_ingenioso_hidalgo_don_Quijote_de_la_Mancha.jpg/330px-El_ingenioso_hidalgo_don_Quijote_de_la_Mancha.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Title_page_first_edition_Don_Quijote.jpg/250px-Title_page_first_edition_Don_Quijote.jpg"
     },
     {
       "id": "15",
@@ -174,7 +174,7 @@
       "status": "read",
       "rating": 4,
       "notes": "Concise and impactful existentialist work.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/L%27etranger_cover_1942.jpg/330px-L%27etranger_cover_1942.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/L%27%C3%89tranger_-_Albert_Camus.jpg/220px-L%27%C3%89tranger_-_Albert_Camus.jpg"
     },
     {
       "id": "17",
@@ -196,7 +196,7 @@
       "status": "want to read",
       "rating": 0,
       "notes": "",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/WutheringHeightsTitlePage.jpg/330px-WutheringHeightsTitlePage.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Houghton_Lowell_1238.5_%28A%29_-_Wuthering_Heights%2C_1847.jpg/200px-Houghton_Lowell_1238.5_%28A%29_-_Wuthering_Heights%2C_1847.jpg"
     },
     {
       "id": "19",
@@ -207,7 +207,7 @@
       "status": "read",
       "rating": 5,
       "notes": "Fascinating perspective on human history and society.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Sapiens_A_Brief_History_of_Humankind.jpg/330px-Sapiens_A_Brief_History_of_Humankind.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/%E1%B8%B2itsur_toldot_ha-enoshut.jpg/250px-%E1%B8%B2itsur_toldot_ha-enoshut.jpg"
     },
     {
       "id": "20",
@@ -240,7 +240,7 @@
       "status": "want to read",
       "rating": 0,
       "notes": "Classic sci-fi series about predicting the future.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Foundation_gnome.jpg/330px-Foundation_gnome.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Foundation_-_Isaac_Asimov_%28Gnome_1951%29.jpg/220px-Foundation_-_Isaac_Asimov_%28Gnome_1951%29.jpg"
     },
     {
       "id": "23",
@@ -251,7 +251,7 @@
       "status": "read",
       "rating": 5,
       "notes": "Incredible and inspiring story of overcoming adversity.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Educated_%28Tara_Westover%29.png/330px-Educated_%28Tara_Westover%29.png"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Educated_%28Tara_Westover%29.png/220px-Educated_%28Tara_Westover%29.png"
     },
     {
       "id": "24",
@@ -262,7 +262,7 @@
       "status": "read",
       "rating": 4,
       "notes": "Beautiful nature writing combined with a compelling mystery.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Where_the_Crawdads_Sing_%28book_cover%29.png/330px-Where_the_Crawdads_Sing_%28book_cover%29.png"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Where_The_Crawdads_Sing_Book_Cover.jpg/220px-Where_The_Crawdads_Sing_Book_Cover.jpg"
     },
     {
       "id": "25",
@@ -273,7 +273,7 @@
       "status": "want to read",
       "rating": 0,
       "notes": "Heard it's as good as The Martian.",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Project_Hail_Mary.jpg/330px-Project_Hail_Mary.jpg"
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Project_Hail_Mary%2C_First_Edition_Cover_%282021%29.jpg/250px-Project_Hail_Mary%2C_First_Edition_Cover_%282021%29.jpg"
     }
   ]
 }
