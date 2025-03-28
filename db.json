@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "id": 1,
+      "id": "1",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "genre": "Fiction",
@@ -12,7 +12,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg/330px-To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "1984",
       "author": "George Orwell",
       "genre": "Dystopian",
@@ -23,7 +23,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/1984first.jpg/330px-1984first.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "genre": "Fiction",
@@ -34,7 +34,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/330px-The_Great_Gatsby_Cover_1925_Retouched.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Pride and Prejudice",
       "author": "Jane Austen",
       "genre": "Romance",
@@ -45,7 +45,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/330px-PrideAndPrejudiceTitlePage.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "genre": "Fiction",
@@ -56,7 +56,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/330px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
       "genre": "Fantasy",
@@ -67,7 +67,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/TheHobbit_FirstEdition.jpg/330px-TheHobbit_FirstEdition.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Fahrenheit 451",
       "author": "Ray Bradbury",
       "genre": "Dystopian",
@@ -78,18 +78,18 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Fahrenheit_451_1st_ed_cover.jpg/330px-Fahrenheit_451_1st_ed_cover.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Brave New World",
       "author": "Aldous Huxley",
       "genre": "Dystopian",
       "yearPublished": 1932,
-      "status": "want to read",
+      "status": "reading",
       "rating": 0,
       "notes": "",
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/BraveNewWorld_FirstEdition.jpg/330px-BraveNewWorld_FirstEdition.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Moby Dick",
       "author": "Herman Melville",
       "genre": "Adventure",
@@ -100,7 +100,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moby_Dick_FE_title_page.jpg/330px-Moby_Dick_FE_title_page.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "War and Peace",
       "author": "Leo Tolstoy",
       "genre": "Historical Fiction",
@@ -111,7 +111,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tolstoy_-_War_and_Peace_-_first_edition%2C_1869.jpg/330px-Tolstoy_-_War_and_Peace_-_first_edition%2C_1869.jpg"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "The Lord of the Rings",
       "author": "J.R.R. Tolkien",
       "genre": "Fantasy",
@@ -122,7 +122,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif/330px-First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
       "genre": "Philosophical Fiction",
@@ -133,7 +133,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Crimeandpunishmentcover.png/330px-Crimeandpunishmentcover.png"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "The Picture of Dorian Gray",
       "author": "Oscar Wilde",
       "genre": "Gothic Fiction",
@@ -144,7 +144,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Wilde_-_Picture_of_Dorian_Gray_-_1891.jpg/330px-Wilde_-_Picture_of_Dorian_Gray_-_1891.jpg"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Don Quixote",
       "author": "Miguel de Cervantes",
       "genre": "Satire",
@@ -155,7 +155,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/El_ingenioso_hidalgo_don_Quijote_de_la_Mancha.jpg/330px-El_ingenioso_hidalgo_don_Quijote_de_la_Mancha.jpg"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "One Hundred Years of Solitude",
       "author": "Gabriel Garcia Marquez",
       "genre": "Magical Realism",
@@ -166,7 +166,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Cien_a%C3%B1os_de_soledad_%28book_cover%2C_1967%29.jpg/330px-Cien_a%C3%B1os_de_soledad_%28book_cover%2C_1967%29.jpg"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "The Stranger",
       "author": "Albert Camus",
       "genre": "Philosophical Fiction",
@@ -177,7 +177,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/L%27etranger_cover_1942.jpg/330px-L%27etranger_cover_1942.jpg"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Jane Eyre",
       "author": "Charlotte Brontë",
       "genre": "Gothic Romance",
@@ -188,7 +188,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jane_Eyre_title_page.jpg/330px-Jane_Eyre_title_page.jpg"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Wuthering Heights",
       "author": "Emily Brontë",
       "genre": "Gothic Fiction",
@@ -199,7 +199,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/WutheringHeightsTitlePage.jpg/330px-WutheringHeightsTitlePage.jpg"
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Sapiens: A Brief History of Humankind",
       "author": "Yuval Noah Harari",
       "genre": "Non-Fiction",
@@ -210,7 +210,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Sapiens_A_Brief_History_of_Humankind.jpg/330px-Sapiens_A_Brief_History_of_Humankind.jpg"
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "The Hitchhiker's Guide to the Galaxy",
       "author": "Douglas Adams",
       "genre": "Science Fiction Comedy",
@@ -221,7 +221,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/H2G2_UK_front_cover.jpg/330px-H2G2_UK_front_cover.jpg"
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Dune",
       "author": "Frank Herbert",
       "genre": "Science Fiction",
@@ -232,7 +232,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg/330px-Dune-Frank_Herbert_%281965%29_First_edition.jpg"
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Foundation",
       "author": "Isaac Asimov",
       "genre": "Science Fiction",
@@ -243,7 +243,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Foundation_gnome.jpg/330px-Foundation_gnome.jpg"
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Educated",
       "author": "Tara Westover",
       "genre": "Memoir",
@@ -254,7 +254,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Educated_%28Tara_Westover%29.png/330px-Educated_%28Tara_Westover%29.png"
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Where the Crawdads Sing",
       "author": "Delia Owens",
       "genre": "Mystery",
@@ -265,7 +265,7 @@
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Where_the_Crawdads_Sing_%28book_cover%29.png/330px-Where_the_Crawdads_Sing_%28book_cover%29.png"
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Project Hail Mary",
       "author": "Andy Weir",
       "genre": "Science Fiction",
