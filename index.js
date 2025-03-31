@@ -58,6 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function createBookCardElement(book) {
         const card = document.createElement('div');
+        const searchQuery = `${book.title} ${book.author || ''}`; 
+        const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
         card.classList.add('book-card');
         card.dataset.id = book.id; 
 
@@ -69,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         card.innerHTML = `
             <img src="${coverUrl}" alt="Cover of ${book.title}" class="book-cover">
             <div class="book-info">
-                <h3>${book.title}</h3>
+                <h3><a href="${searchUrl}" target="_blank" rel="noopener noreferrer" class="book-title-link">${book.title}</a></h3>
                 <p>by ${book.author || 'Unknown Author'}</p>
                 <p>Genre: ${book.genre || 'N/A'}</p>
                 <p>Pages: ${book.pages || 'N/A'}</p>

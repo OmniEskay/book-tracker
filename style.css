@@ -140,3 +140,21 @@ button:hover {
 #cancel-add:hover {
     background: #A52A2A;
 }
+
+.book-title-link {
+    color: #FFD700; 
+    text-decoration: none; 
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.book-title-link:hover,
+.book-title-link:focus { 
+    color: #E6C200; 
+    text-decoration: underline; 
+}
+
+
+.book-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}

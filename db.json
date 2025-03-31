@@ -28,7 +28,7 @@
       "author": "F. Scott Fitzgerald",
       "genre": "Fiction",
       "yearPublished": 1925,
-      "status": "want to read",
+      "status": "to-read",
       "rating": 0,
       "notes": "",
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/330px-The_Great_Gatsby_Cover_1925_Retouched.jpg"
@@ -274,6 +274,28 @@
       "rating": 0,
       "notes": "Heard it's as good as The Martian.",
       "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Project_Hail_Mary%2C_First_Edition_Cover_%282021%29.jpg/250px-Project_Hail_Mary%2C_First_Edition_Cover_%282021%29.jpg"
+    },
+    {
+      "id": "d864",
+      "title": "The Other Side of Midnight",
+      "author": "Sidney Sheldon",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/TheOtherSideOfMidnight.jpg/250px-TheOtherSideOfMidnight.jpg",
+      "genre": "Fiction Thriller",
+      "pages": 598,
+      "status": "reading",
+      "rating": 0,
+      "notes": "Very entertaining and hooks the reader"
+    },
+    {
+      "id": "c0fc",
+      "title": "The Other Side of Midnight",
+      "author": "Sidney Sheldon",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/TheOtherSideOfMidnight.jpg/250px-TheOtherSideOfMidnight.jpg",
+      "genre": "Fiction Thriller",
+      "pages": 598,
+      "status": "reading",
+      "rating": 0,
+      "notes": "Very entertaining and hooks the reader"
     }
   ]
 }
